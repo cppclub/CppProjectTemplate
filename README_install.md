@@ -55,7 +55,7 @@ pip install -U gcovr
 
 It's included in the LLVM toolchain, but also installable by apt, brew, winget etc.
 
-https://github.com/llvm/llvm-project/releases/tag/llvmorg-16.0.0
+<https://github.com/llvm/llvm-project/releases/tag/llvmorg-16.0.0>
 
 ## Cross Compiler as an Example
 
@@ -63,7 +63,8 @@ https://github.com/llvm/llvm-project/releases/tag/llvmorg-16.0.0
 
 ```shell
 sudo apt update
-sudo apt install libc6-armel-cross libc6-dev-armel-cross binutils-arm-linux-gnueabi libncurses5-dev build-essential bison flex libssl-dev bc
+sudo apt install libc6-armel-cross libc6-dev-armel-cross \
+binutils-arm-linux-gnueabilibncurses5-dev build-essential bison flex libssl-dev bc
 
 sudo apt install gcc-arm-linux-gnueabihf g++-arm-linux-gnueabihf
 sudo apt install gcc-arm-linux-gnueabi g++-arm-linux-gnueabi
