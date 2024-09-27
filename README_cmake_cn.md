@@ -113,13 +113,13 @@ target_include_directories(D INTERFACE {CMAKE_CURRENT_SOURCE_DIR}/include)
   - Linux: `*.so`
   - MacOS: `*.dylib`
   - Windows: `*.dll`
-  
+
   共享库减少了每个使用库的程序中重复的代码量，使二进制文件保持较小。然而，共享库在执行时会有少量额外的成本。通常共享库与可执行文件在同一目录中。
 
 - **静态库**：
   - Linux/MacOS: `*.a`
   - Windows: `*.lib`
-  
+
   静态库增加了二进制文件的整体大小，但意味着您不需要携带使用的库的副本。由于代码在编译时连接，因此没有额外的运行时加载成本。
 
 ## CMake 路径的重要变量
